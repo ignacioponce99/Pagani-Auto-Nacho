@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: rgba(0, 140, 255, 0.418);
+
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: flex-start
+}
+header nav ul li a{
+    text-decoration: none;
+    color: indianred;
+    font-size: 20px;
+}
+section img{
+    margin: 20px;
+    padding: 20px;
+    width: 1610px;
+    height: 1400px;
+}
+
+h2{
+    margin: 0px;
+    padding: 0px;
+    box-shadow: inset;
+    color: chartreuse;
+}
+
+label{
+    background-color: rgb(201, 240, 122);
+}
+p{
+    background-color: aqua;
+}
+ol li{
+    background-color: rgb(171, 82, 255);
+}
