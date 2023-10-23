@@ -2,10 +2,22 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
+}
+h1{
+    flex-direction: column;
+    background-color: rgb(101, 228, 228);
+    }
+main{
+    display: grid;
+    grid-template-rows: (5, auto);
+    margin: 1rem 3rem 3rem 3rem;
+    gap: 1rem;
+    grid-template-columns: repeat(2 2fr);
 }
 header{
     background-color: rgba(0, 140, 255, 0.418);
+    display: flex;
+    flex-direction: row-reverse;
 
 }
 header nav ul{
@@ -22,17 +34,23 @@ header nav ul li a{
 section img{
     margin: 20px;
     padding: 20px;
-    width: 1610px;
-    height: 1400px;
+    width: 90vh;
+    height: 80vh;
+    background-color: rgb(224, 125, 11);
+    flex-direction: row-reverse;
 }
 
 h2{
     margin: 0px;
     padding: 0px;
     box-shadow: inset;
-    color: chartreuse;
+    background-color: chartreuse;
 }
-
+h3{
+    flex-direction: column-reverse;
+    background-color: rgb(105, 35, 170);
+    
+}
 label{
     background-color: rgb(201, 240, 122);
 }
@@ -41,4 +59,12 @@ p{
 }
 ol li{
     background-color: rgb(171, 82, 255);
+}
+@media screen and (min-width: 768px){
+header{
+    flex-direction: column-reverse;
+}
+} 
+@media screen and (min-width: 1024px){
+
 }
