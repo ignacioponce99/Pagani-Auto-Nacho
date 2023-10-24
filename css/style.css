@@ -7,31 +7,31 @@ h1{
     flex-direction: column;
     background-color: rgb(101, 228, 228);
     }
-main{
-    display: grid;
-    grid-template-rows: (5, auto);
-    margin: 1rem 3rem 3rem 3rem;
-    gap: 1rem;
-    grid-template-columns: repeat(2 2fr);
-}
-header{
-    background-color: rgba(0, 140, 255, 0.418);
-    display: flex;
-    flex-direction: row-reverse;
-
-}
-header nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    align-items: flex-start
-}
-header nav ul li a{
-    text-decoration: none;
-    color: indianred;
-    font-size: 20px;
-}
-section img{
+    header{
+        background-color: rgba(0, 140, 255, 0.418);
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+    header nav ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        align-items: flex-start
+    }
+    header nav ul li a{
+        text-decoration: none;
+        color: indianred;
+        font-size: 20px;
+    }
+    main{
+        display: grid;
+        grid-template-rows: (5, auto);
+        margin: 1rem 3rem 3rem 3rem;
+        gap: 1rem;
+        grid-template-columns: repeat(2 2fr);
+    }
+    img{
     margin: 20px;
     padding: 20px;
     width: 90vh;
@@ -39,18 +39,24 @@ section img{
     background-color: rgb(224, 125, 11);
     flex-direction: row-reverse;
 }
-
-h2{
+        h2{
     margin: 0px;
     padding: 0px;
     box-shadow: inset;
     background-color: chartreuse;
+    flex-wrap: wrap;
 }
 h3{
     flex-direction: column-reverse;
     background-color: rgb(105, 35, 170);
-    
+    flex-direction: row;
 }
+img div{
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+    background-color: rgb(77, 161, 113);
+} 
 label{
     background-color: rgb(201, 240, 122);
 }
