@@ -66,7 +66,5 @@ p{
 ol li{
     background-color: rgb(171, 82, 255);
 }
-@media screen and (min-width: 320px){
-}
-@media screen and (max-width: 1024px){
+@media screen (min-width: 320px) and (max-width: 1024px){
 }
