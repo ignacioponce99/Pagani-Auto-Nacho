@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(13, 183, 250);
+    background-color: white;
     font-family: sans-serif;
     margin: 0px;
 }
@@ -32,10 +32,12 @@ div img{
     height: auto;
     box-shadow: 0px 0px 30px #343759;
 }
-div{
+
+div {
     display: grid;
     grid-template-columns: repeat(auto-fit), minmax(150px, 1fr);
     gap: 32px;
+    justify-content: space-around;
 }
 main p{
     margin: auto;
@@ -57,7 +59,7 @@ main p{
     width: 33%;
     height: 550px;
     margin: auto;
-    border: 1px solid #343759;
+    border: 1px solid white;
     border-radius: 4px;
     box-shadow: 0px 0px 4px 0px #343759;
     text-align: center;
@@ -96,6 +98,6 @@ nav a:hover{
     color: white;
 }
 
-@media screen (min-width: 320px) and (min-width: 1440px){
+@media screen (min-width: 320px) and (min-width: 1400px){
     
 }
